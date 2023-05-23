@@ -717,13 +717,11 @@ p {
 .header-image {
   max-width: 430px;
   margin: 0 auto;
-  position: relative;
-  /* border: 20px solid #DBAEC4;
-  border-radius: 20px;*/ } 
+  position: relative; } 
   .header-image::before {
     position: absolute;
     content: '';
-    width: 110%;
+    width: 108%;
     height: 82%;
     border: 20px solid #754ef9;
     border-bottom: 0;
@@ -737,7 +735,7 @@ p {
   .header-image::after {
     position: absolute;
     content: '';
-    width: 110%;
+    width: 108%;
     height: 20px;
     background-color: #754ef9;
     left: 0;
