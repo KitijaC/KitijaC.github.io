@@ -718,12 +718,12 @@ p {
   max-width: 430px;
   margin: 0 auto;
   position: relative;
-  border: 20px solid #DBAEC4;
-  border-radius: 20px; }
-  /* .header-image::before {
+  /* border: 20px solid #DBAEC4;
+  border-radius: 20px;*/ } 
+  .header-image::before {
     position: absolute;
     content: '';
-    width: 100%;
+    width: 110%;
     height: 82%;
     border: 20px solid #754ef9;
     border-bottom: 0;
@@ -737,15 +737,15 @@ p {
   .header-image::after {
     position: absolute;
     content: '';
-    width: 100%;
+    width: 110%;
     height: 20px;
     background-color: #754ef9;
     left: 0;
-    bottom: 58px;
-    z-index: 11; } */
+    bottom: 40px;
+    z-index: 11;}
   .header-image img {
     position: relative;
-    z-index: 5; }
+    z-index: 5;}
 
 .header-social {
   position: absolute;
